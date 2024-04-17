@@ -1,0 +1,4 @@
+<div class="d-flex">
+  <input type="text" class="form-control m-1 w-100" [(ngModel)]="currentWord" #inputField (input)="onInput($event)">
+  <button class="btn btn-primary m-1" (click)="onSubmit()">Submit</button>
+</div>

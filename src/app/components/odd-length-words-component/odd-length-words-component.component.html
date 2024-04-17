@@ -1,0 +1,8 @@
+<span class="text-danger">{{oddWord}}</span><br>
+@if(oddWords.length === 0){
+<p>No odd length words</p>
+} @else {
+@for (word of oddWords; track word) {
+<span>{{word}}</span><br>
+}
+}
